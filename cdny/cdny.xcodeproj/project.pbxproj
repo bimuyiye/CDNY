@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04A26B0A1F2EDCC4009DE0D4 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A26B091F2EDCC4009DE0D4 /* Test.swift */; };
 		62C47631299F994A487F3F2D /* Pods_cdny.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DD6483E588DD697FC79DDF /* Pods_cdny.framework */; };
 		7321919D1F29963E00675A54 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7321919C1F29963E00675A54 /* Home.storyboard */; };
 		7321919F1F29965B00675A54 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7321919E1F29965B00675A54 /* HomeViewController.swift */; };
@@ -48,6 +49,7 @@
 /* End PBXBuildRule section */
 
 /* Begin PBXFileReference section */
+		04A26B091F2EDCC4009DE0D4 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		22DD6483E588DD697FC79DDF /* Pods_cdny.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cdny.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		683020852DB87F3CE38BB5A5 /* Pods-cdny.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cdny.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cdny/Pods-cdny.debug.xcconfig"; sourceTree = "<group>"; };
 		7321919C1F29963E00675A54 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
@@ -262,6 +264,7 @@
 				733E97EC1F2B1B6700AD7BD3 /* CollectionViewController.swift */,
 				733E97ED1F2B1B6700AD7BD3 /* CollectionViewCell.swift */,
 				733E97EE1F2B1B6700AD7BD3 /* LInearCollectionViewLayout.swift */,
+				04A26B091F2EDCC4009DE0D4 /* Test.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 				TargetAttributes = {
 					73262DEC1F25A0AF00CA9E3F = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZNCJQAAK2L;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -424,6 +428,7 @@
 				73782C831F25D74C002EB705 /* NetworkTools.swift in Sources */,
 				733E97F11F2B1B6700AD7BD3 /* ImageBrowseCollectionViewCell.swift in Sources */,
 				733E97EF1F2B1B6700AD7BD3 /* ImageBrowseViewController.swift in Sources */,
+				04A26B0A1F2EDCC4009DE0D4 /* Test.swift in Sources */,
 				73262DF11F25A0AF00CA9E3F /* AppDelegate.swift in Sources */,
 				73262E101F25A24E00CA9E3F /* MainWebviewController.swift in Sources */,
 				7321919F1F29965B00675A54 /* HomeViewController.swift in Sources */,
@@ -546,6 +551,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = ZNCJQAAK2L;
 				INFOPLIST_FILE = cdny/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -561,6 +567,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = ZNCJQAAK2L;
 				INFOPLIST_FILE = cdny/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
